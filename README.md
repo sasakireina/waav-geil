@@ -2,7 +2,7 @@
 
 ## Flow
 ### 上から順に手順を追っていきましょう。
-####**開発前**
+#### **開発前**
 
 ***1. Move to your project directory.***
 ```
@@ -32,18 +32,18 @@
 ```
 
 ***6. Create a pull request on github.***
-- Pushした後こんな画面（ちょっと古い）になるのですが、ここで***Compare & pull request***を押下。
+- Pushした後こんな画面（ちょっと古い）になるのですが、ここで ***Compare & pull request*** を押下。
 ![pull-req](https://user-images.githubusercontent.com/31397009/44029103-1122f9c6-9f37-11e8-8917-3d01e98cd2a6.png) 
 
-- こんな画面に遷移します（スタイルは指定してます）。baseがmaster、compareがyour_branchになっていることを確認して、諸々を記入し***Create pull request***を押下します。開発に入りましょうb
+- こんな画面に遷移します（スタイルは指定してます）。baseがmaster、compareがyour_branchになっていることを確認して、諸々を記入し ***Create pull request*** を押下します。開発に入りましょうb
 ![pull-req-2](https://user-images.githubusercontent.com/31397009/44029224-761b9cfc-9f37-11e8-9e4a-6376c17371e7.jpg)
 
-####**開発中**
+#### **開発中**
 
 ***7. Change as you like on your_branch.***
 ![top](https://user-images.githubusercontent.com/31397009/44029787-7e0188bc-9f39-11e8-9549-3b6c793cf902.png)
 
-####**開発後**
+#### **開発後**
 
 ***8. Add files you modified.***
 ```
@@ -84,7 +84,7 @@
 
 ***5. Open and edit the conflict file with an atom editor.***
 ![atom-conflict](https://user-images.githubusercontent.com/31397009/44031215-3c0f0420-9f3e-11e8-8234-e82f53742ef0.jpg)
-- どちらかの***Use me***を押下、またはその場に応じて適当に編集してconflictを解消する。
+- どちらかの ***Use me*** を押下、またはその場に応じて適当に編集してconflictを解消する。
 
 ***6. Add files you modified.***
 ```
@@ -106,10 +106,10 @@
 ---
 
 ***11. Merge origin your_branch into origin master branch and delete your_branch on github.***
-- ***This branch is up-to-date with base branch***のチェックマークを確認し、***Merge pull request***、続けて***Confirm merge***を押下。
+- ***This branch is up-to-date with base branch*** のチェックマークを確認し、 ***Merge pull request*** 、続けて ***Confirm merge*** を押下。
 ![merge](https://user-images.githubusercontent.com/31397009/44030208-10a366d0-9f3b-11e8-8b9f-8ed15b1467cc.png)
 
-- ***Delete branch***を押下。
+- ***Delete branch*** を押下。
 ![delete](https://user-images.githubusercontent.com/31397009/44030411-a86b996a-9f3b-11e8-9900-e7b6978c275e.png)
 
 ***12. Change from your (local) branch to master.***
