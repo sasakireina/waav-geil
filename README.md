@@ -6,4 +6,6 @@
 
 ## yamamoto
 
+## hashimoto
+
 ### higasa
