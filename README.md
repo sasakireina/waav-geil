@@ -1,12 +1,12 @@
 # waav-geil
 
 ## Flow
-### 上から順に手順を追っていきましょう。
+### 上から順に手順を追って実行していきましょう。
 #### **開発前**
 
 ***1. Move to your project directory.***
 ```
-[~]$ cd /Applications/MAMP/htdocs/waav-geil
+[~]$ cd /Applications/MAMP/htdocs/waav-geil（このpath（/Applications/MAMP/htdocs/waav-geil）の部分は自分の環境に合わせて）
 ```
 
 ***2. Reflect the latest code.***
@@ -26,7 +26,7 @@
 [current:feature/add_image]$ git commit --allow-empty -m 'Create branch feature/add_image' (Create branch あなたの作ったbranch名(以下your_branchに略))
 ```
 
-***5. Push to an origin repository(=directory).***
+***5. Push your local app to an origin repository(=directory).***
 ```
 [current:your_branch]$ git push origin feature/your_branch
 ```
@@ -40,7 +40,7 @@
 
 #### **開発中**
 
-***7. Change as you like on your_branch.***
+***7. Change your app as you like on your_branch.***
 ![top](https://user-images.githubusercontent.com/31397009/44029787-7e0188bc-9f39-11e8-9549-3b6c793cf902.png)
 
 #### **開発後**
@@ -55,7 +55,7 @@
 [current:your_branch]$ git commit -m 'Add some images'.（''内はその場で適当に）
 ```
 
-***10. Push to an origin repository.***
+***10. Push your local app to an origin repository.***
 ```
 [current:your_branch]$ git push origin feature/your_branch
 ```
@@ -67,7 +67,7 @@
 
 ***1. At first, calm down.***
 
-***2. Change from your (local) branch to master.***
+***2. Change your (local) branch to master branch.***
 ```
 [current:your_branch]$ git checkout master
 ```
@@ -77,7 +77,7 @@
 [current:master]$ git pull origin master
 ```
 
-***4. Change from master to your (local) branch.***
+***4. Change master branch to your (local) branch.***
 ```
 [current:master]$ git checkout your_branch
 ```
@@ -96,7 +96,7 @@
 [current:your_branch]$ git commit -m 'Resolve conflicts'.（''内はその場で適当に）
 ```
 
-***8. Push to an origin repository.***
+***8. Push your local app to an origin repository.***
 ```
 [current:your_branch]$ git push origin feature/your_branch
 ```
@@ -112,7 +112,7 @@
 - ***Delete branch*** を押下。
 ![delete](https://user-images.githubusercontent.com/31397009/44030411-a86b996a-9f3b-11e8-9900-e7b6978c275e.png)
 
-***12. Change from your (local) branch to master.***
+***12. Change your (local) branch to master branch.***
 ```
 [current:your_branch]$ git checkout master
 ```
